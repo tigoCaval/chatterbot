@@ -19,3 +19,24 @@ Example: a array with the following information
 "Hi"=> ["Hi","Hello"]
 
 Question = "Hi" | random answer = ["Hi","Hello"]
+
+ ### Getting started
+ Starting with composer
+ 1. Install composer
+ 2. Download package: ```composer require tigo/chatterbot```
+ 3. PHP >= 7.3;  
+ 
+ ```php
+ //Somewhere in your project, you may need to use autoload
+ include __DIR__ ."/vendor/autoload.php";
+ ```
+  ```php
+   use Tigo\ChatterBot\Bot\BotUniversal; // import class
+   use Tigo\ChatterBot\Response; //import class
+
+  $response  = new Response(new BotUniversal);
+  /**
+  
+  **/
+  print $response->check("Good Afternoon"); // random result = ["Good Afternoon","Hi","Hello"] 
+ ```
