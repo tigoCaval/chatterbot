@@ -53,3 +53,7 @@ Question = "Hi" | random answer = ["Hi","Hello"]
  ### Configuration
  
  To configure the database connection using this modeling example [click here](https://github.com/tigoCaval/crud/blob/main/doc/doc-en.md) (project tigoCaval/crud).
+
+## Contributors
+ - [Tiago A C Pereira](https://github.com/tigoCaval)
+ - [List of contributors](https://github.com/tigoCaval/chatterbot/graphs/contributors)
