@@ -14,3 +14,8 @@ Example of a simple chatterbot for educational purposes.
 
 ## Introduction
 This project is based on question and answers.
+Example: a array with the following information 
+
+"Hi"=> ["Hi","Hello"]
+
+Question = "Hi" | random answer = ["Hi","Hello"]
