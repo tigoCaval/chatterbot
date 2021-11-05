@@ -20,6 +20,8 @@ Example: a array with the following information
 
 Question = "Hi" | random answer = ["Hi","Hello"]
 
+**Using Database**
+
 [![](https://github.com/tigoCaval/images/blob/main/web/table_chatterbot.png)](https://github.com/tigoCaval/chatterbot)
 
  ### Getting started
