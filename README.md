@@ -52,7 +52,8 @@ Question = "Hi" | random answer = ["Hi","Hello"]
  
  ### Configuration
  
- To configure the database connection using this modeling example [click here](https://github.com/tigoCaval/crud/blob/main/doc/doc-en.md) (project tigoCaval/crud).
+ - To configure the database connection using this modeling example [click here](https://github.com/tigoCaval/crud/blob/main/doc/doc-en.md) (project tigoCaval/crud).
+ - It is necessary to create the data tables according to this database modeling.
 
 ## Contributors
  - [Tiago A C Pereira](https://github.com/tigoCaval)
