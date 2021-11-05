@@ -28,7 +28,8 @@ Question = "Hi" | random answer = ["Hi","Hello"]
  Starting with composer
  1. Install composer
  2. Download package: ```composer require tigo/chatterbot```
- 3. PHP >= 7.3;  
+ 3. PHP >= 7.3;
+ 4. Update command: ```composer update```  
  
  ```php
  //Somewhere in your project, you may need to use autoload
