@@ -1,0 +1,24 @@
+{
+    "name": "tigo/chatterbot", 
+    "description": "structure of a simple chatterbot", 
+    "license": "MIT",
+    "keywords": [  
+       "chatterbot",
+       "chatbot"   
+    ],
+    "authors": [ 
+        {
+          "name": "Tiago A C Pereira",
+          "email": "tiagocavalcante57@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.3",
+        "tigo/crud": "^0.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tigo\\ChatterBot\\": "src/" 
+        }
+    }
+}
