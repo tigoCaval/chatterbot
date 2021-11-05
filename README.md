@@ -34,6 +34,7 @@ Question = "Hi" | random answer = ["Hi","Hello"]
  //Somewhere in your project, you may need to use autoload
  include __DIR__ ."/vendor/autoload.php";
  ```
+ **Example**
   ```php
    use Tigo\ChatterBot\Bot\BotUniversal; // import class
    use Tigo\ChatterBot\Response; //import class
@@ -47,3 +48,7 @@ Question = "Hi" | random answer = ["Hi","Hello"]
   print $response->checkDataBase("Good Afternoon"); // random result = ["Good Afternoon","Hi","Hello"]   
   
  ```
+ 
+ ### Configuration
+ 
+ To configure the database connection using this modeling example click here (project tigoCaval/crud).
