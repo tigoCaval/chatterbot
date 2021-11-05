@@ -44,7 +44,7 @@ class Response
      * get check.
      *
      * @param  mixed $data
-     * @return array|false
+     * @return string|false
      */
     public function check($data)
     {
@@ -55,7 +55,7 @@ class Response
      * checkDataBase | get information through the database.
      *
      * @param  mixed $data
-     * @return array|false
+     * @return string|false
      */
     public function checkDataBase($data)
     {
