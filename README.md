@@ -3,7 +3,7 @@
 Example of a simple chatterbot for educational purposes.
 
 - Download package: ```composer require tigo/chatterbot```
-- MIT license:
+- MIT license: [License](https://github.com/tigoCaval/chatterbot/blob/main/LICENSE)
 - ***Feel free to use this project***. ***Leave a star :star: if you liked!***
 
 *If you found this project useful, consider making a donation to support the developer.* 
