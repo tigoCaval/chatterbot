@@ -35,8 +35,11 @@ Question = "Hi" | random answer = ["Hi","Hello"]
    use Tigo\ChatterBot\Response; //import class
 
   $response  = new Response(new BotUniversal);
-  /**
   
-  **/
-  print $response->check("Good Afternoon"); // random result = ["Good Afternoon","Hi","Hello"] 
+  //using local array data | return string
+  print $response->check("Good Afternoon"); // random result = ["Good Afternoon","Hi","Hello"]
+  
+  //fetching information from a database | return string
+  print $response->checkDataBase("Good Afternoon"); // random result = ["Good Afternoon","Hi","Hello"]   
+  
  ```
