@@ -11,3 +11,6 @@ Example of a simple chatterbot for educational purposes.
 [![paypal](https://www.paypalobjects.com/pt_BR/i/btn/btn_donate_SM.gif)](https://www.paypal.com/donate?hosted_button_id=ZQRM3T5WG7JL4) 
 |
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/donate?hosted_button_id=9BQYV7FVREN92)
+
+## Introduction
+This project is based on question and answers.
