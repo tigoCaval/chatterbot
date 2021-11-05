@@ -23,7 +23,7 @@ class BotUniversal implements BotInterface
       *
       * @param  mixed $data
       * @param  ResponseInterface $rl
-      * @return array|false
+      * @return string|false
       */
      public function check($data, ResponseInterface $rl)
      {
