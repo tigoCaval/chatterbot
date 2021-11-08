@@ -13,10 +13,11 @@ class BotUniversal implements BotInterface
      use CharacterTrait;
      
      /**
-      * 
+      * remove characters.
+      *
       * @var string
       */
-     private $char = "`´^~@#$%&*?!().¨:;";
+     private $char = ["#", "@", "%", "&","$","(",")","^","~",":",";",".","?","!"];
         
      /**
       * check
@@ -28,14 +29,15 @@ class BotUniversal implements BotInterface
      public function check($data, ResponseInterface $rl)
      {
          $data = mb_strtoupper($data);
-         $data = trim($data, $this->char);
+         $data = str_replace($this->char,"",$data);
          foreach($rl->show() as $key => $item){
              $key = mb_strtoupper($key);
-             $key = trim($key, $this->char);     
-             if($this->removeChar($data) === $this->removeChar($key))
-                return $item[array_rand($item,1)]; 
+             $key = str_replace($this->char,"",$key);     
+             $dataNs = str_replace(" ","",$data);
+             $keyNs = str_replace(" ","",$key);  
+             if($this->removeChar($dataNs) === $this->removeChar($keyNs))
+                return $item[array_rand($item,1)];
          }
          return false;
-     } 
-  
+     }
 }
